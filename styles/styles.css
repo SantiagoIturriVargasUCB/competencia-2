@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(27, 125, 45);
+}
+p{
+    color: green;
+    font-size: 10px;
+}
+div{
+    color:rgb(255, 14, 0);
+    background-color: rgb(255, 255, 254, 0.2);
+} 
+
+.caja1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 164, 187)
+}
+
+.caja2{
+    width: 150px;
+    height: 150px;
+    background-color: #FF2800
+}
+
+.caja3{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(220, 100%, 20%);
+}
+
+a[title]{
+    color: white;
+}
+
+input:disabled{
+    border: 2px solid orange;
+}
+
+button:hover{
+    background-color: green;
+}
