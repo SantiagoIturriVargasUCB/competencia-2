@@ -1,0 +1,44 @@
+body{
+    margin:0;
+}
+
+.contenedor-flexible{    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.elemento-flexible-uno, .elemento-flexible-cinco{
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    color:white;
+}
+.elemento-flexible-dos, .elemento-flexible-seis{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    color:white;
+}
+.elemento-flexible-tres, .elemento-flexible-siete{
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    color:white;
+}
+
+.elemento-flexible-cuatro{
+    background-color: green;
+    width: 150px;
+    height: 200px;
+    color:white;
+}
+
+.contenedor-flexible-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
