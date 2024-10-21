@@ -37,12 +37,15 @@ body{
 }
 .uno{
     background-color: rgb(133, 0, 18);
+    background-image: url(../assets/carne_pinza.jpg);
 }
 .dos{
     background-color: rgb(181, 3, 27);
+    background-image: url(../assets/t_bone.webp);
     height: 50%;
 }
 .tres{
     background-color: rgb(255, 0, 34);
+    background-image: url(../assets/steak.jpg);
     height: 50%;
 }
